@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int n;
+  cin >> n;
+   cout<< "the valu of n is :" << n<<endl;
+
+}
+
+int main() {
+
+  int n;
+  cout<< "enter the the value of n"<< endl;
+  cin >> n;
+  if (n > 0) {
+    cout << "n is positive" << endl;
+  } else {
+    cout << "n is negative" << endl;
+  }
+}
+
+int main (){
+  int a,b;
+  cout<<"enter vale of a:"<<endl;
+  cin>>a;
+
+  cout<<"enter the value of b: "<<endl;
+  cin>>b;
+
+  if(a>b){
+    cout<<"a is greater then b "<<endl;
+  }
+  else{
+    cout<<"b is greater then a"<<endl;
+  }
+}
+
+int main() {
+  int a;
+  cout << "enter the number a :" << endl;
+  cin >> a;
+  if (a > 0) {
+    cout << "a is +ve" << endl;
+
+  } else {
+    if (a < 0) {
+      cout << "print a is negative" << endl;
+    } else {
+      cout << "a is zero " << endl;
+    }
+  }
+}
+
+int main (){
+  int a;
+  cout<<"enter the value of a: "<< endl;
+  cin>> a;
+  if(a>0){
+    cout<<"a is posative"<<endl;
+    }
+  else if(a<0){
+    cout<<"a is negative"<<endl;
+  }
+  else{
+    cout<<"ä is zero";
+  }
+  }
